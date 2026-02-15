@@ -19,7 +19,6 @@ const MOCK_DATA = {
       ssn: '***-**-1234',
       accountOpenDate: '03/12/2015',
       routingNumber: '091000019',
-      accountType: 'Premium Checking',
       overdraftProtection: 'Active',
       preferredName: 'Johnny',
       businessPhone: '(555) 987-6543',
@@ -37,7 +36,6 @@ const MOCK_DATA = {
       ssn: '***-**-5678',
       accountOpenDate: '07/18/2018',
       routingNumber: '091000019',
-      accountType: 'Premium Checking',
       overdraftProtection: 'Active',
       preferredName: 'Jane',
       businessPhone: '(555) 876-5432',
@@ -54,15 +52,14 @@ const MOCK_DATA = {
       dateOfBirth: '*/*/1951',
       ssn: '***-**-8043',
       accountOpenDate: '11/05/2010',
-      routingNumber: '091000019',
-      accountType: 'Classic Checking',
+      routingNumber: '******019',
       overdraftProtection: 'Inactive',
       preferredName: 'Michele',
-      businessPhone: '(509) 555-5799',
+      businessPhone: 'NA',
       alternateEmail: 'michele.stacey@gmail.com',
       accountNumber: '5555666677775467',
       balance: 72126,
-      accountType: 'Checking',
+      accountType: 'Encryption',
     },
   },
   transactions: [
@@ -726,12 +723,7 @@ export default function BankingApp() {
                   <p className="text-lg text-gray-900">{userProfile.email}</p>
                 </div>
 
-                <div className="border-t border-gray-200 pt-8">
-                  <label className="block text-sm font-semibold text-gray-600 uppercase tracking-wide mb-3">
-                    Alternate Email Address
-                  </label>
-                  <p className="text-lg text-gray-900">{userProfile.alternateEmail}</p>
-                </div>
+               
 
                 <div className="border-t border-gray-200 pt-8">
                   <label className="block text-sm font-semibold text-gray-600 uppercase tracking-wide mb-3">
@@ -773,13 +765,6 @@ export default function BankingApp() {
                     Routing Number
                   </label>
                   <p className="text-lg text-gray-900">{userProfile.routingNumber}</p>
-                </div>
-
-                <div className="border-t border-gray-200 pt-8">
-                  <label className="block text-sm font-semibold text-gray-600 uppercase tracking-wide mb-3">
-                    Account Open Date
-                  </label>
-                  <p className="text-lg text-gray-900">{userProfile.accountOpenDate}</p>
                 </div>
 
                 <div className="border-t border-gray-200 pt-8">
