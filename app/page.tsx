@@ -281,7 +281,7 @@ export default function BankingApp() {
         {/* Header */}
         <header className="bg-blue-900 text-white">
           <div className="max-w-full mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
-            <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/261813313/550211443-e9f37a9e-fed9-43ed-922a-4d7955e58a9d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260215T220104Z&X-Amz-Expires=300&X-Amz-Signature=41681bdc8707cfd85fbd4256f24492b96aaf58923dfdca7cdcd7a744a2a54dc8&X-Amz-SignedHeaders=host" alt="US Bank" className="h-10" />
+            <img src="/logo.png" alt="US Bank" className="h-10" />
             <button className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -390,7 +390,7 @@ export default function BankingApp() {
         {/* Header */}
         <header className="bg-blue-900 text-white border-b border-gray-200 relative z-30">
           <div className="max-w-full mx-auto px-4 md:px-6 py-4 flex justify-between items-center relative">
-            <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/261813313/550211443-e9f37a9e-fed9-43ed-922a-4d7955e58a9d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260215T220104Z&X-Amz-Expires=300&X-Amz-Signature=41681bdc8707cfd85fbd4256f24492b96aaf58923dfdca7cdcd7a744a2a54dc8&X-Amz-SignedHeaders=host" alt="US Bank" className="h-10" />
+            <img src="/logo.png" alt="US Bank" className="h-10" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-8 items-center text-sm">
@@ -581,7 +581,7 @@ export default function BankingApp() {
         {/* Header */}
         <header className="bg-blue-900 text-white border-b border-gray-200 relative z-30">
           <div className="max-w-full mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
-            <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/261813313/550211443-e9f37a9e-fed9-43ed-922a-4d7955e58a9d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260215T220104Z&X-Amz-Expires=300&X-Amz-Signature=41681bdc8707cfd85fbd4256f24492b96aaf58923dfdca7cdcd7a744a2a54dc8&X-Amz-SignedHeaders=host" alt="US Bank" className="h-10" />
+            <img src="/logo.png" alt="US Bank" className="h-10" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-8 items-center text-sm">
@@ -784,7 +784,7 @@ export default function BankingApp() {
         {/* Header */}
         <header className="bg-blue-900 text-white border-b border-gray-200 relative z-30">
           <div className="max-w-full mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
-            <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/261813313/550211443-e9f37a9e-fed9-43ed-922a-4d7955e58a9d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260215T220104Z&X-Amz-Expires=300&X-Amz-Signature=41681bdc8707cfd85fbd4256f24492b96aaf58923dfdca7cdcd7a744a2a54dc8&X-Amz-SignedHeaders=host" alt="US Bank" className="h-10" />
+            <img src="/logo.png" alt="US Bank" className="h-10" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-8 items-center text-sm">
